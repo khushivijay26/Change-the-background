@@ -1,8 +1,25 @@
 body {
     background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.button-center {
-    margin-left: 675px;
+.heading {
+    text-align: center;
     margin-top: 40px;
+}
+
+.sub-heading {
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 200px;
+    padding: 10px;
+} 
+
+.button-center {
+    margin-left: 65px;
+    margin-top: 20px;
 }
