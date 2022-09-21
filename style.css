@@ -1,0 +1,15 @@
+body{
+    background-color: cadetblue;
+}
+
+#myDIV {
+    width: cover;
+    height: 713px;
+    background-color: cadetblue ;
+    color: white;
+  }
+
+  .button-center{
+    margin-left: 675px;
+    margin-top: 40px;
+  }

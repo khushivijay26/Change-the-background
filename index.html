@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Change by JS</title>
+    <link rel="icon" href="Color-favicon.png" type="image/icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="myDIV">
+    <h1 class="text-center pt-lg-5">Change background-color with JavaScript</h1>
+
+    <p class="text-center pt-2">Click the "Try it" button to set the background-color property of the DIV element to "Crimson":</p>
+
+    <button class="button-center px-5 py-2 border-0 rounded-pill" onclick="myFunction()">Try it</button>
+    </div>
+
+    <script>
+        function myFunction() {
+            document.getElementById("myDIV").style.backgroundColor = "#dc143c";
+        }
+    </script>
+
+</body>
+
+</html>
