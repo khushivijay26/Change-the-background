@@ -15,20 +15,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body id="myDIV">
+<body id="randomBackground" class="randomBackground">
     <div>
-    <h1 class="heading">Color Flipper</h1>
+        <h1 class="heading">Color Flipper</h1>
 
-    <p class="sub-heading">Background Color: #5F9EA0</p>
+        <p class="sub-heading">Random Background Color</p>
 
-    <button class="button-center px-5 py-2 border-0" onclick="myFunction()">Click Me</button>
+        <button class ="button-click" onclick="changeBackground()">Click Me</button>
     </div>
 
-    <script>
-        function myFunction() {
-            document.getElementById("myDIV").style.backgroundColor = "#dc143c";
-        }
-    </script>
+<script>
+    function changeBackground() {
+		const red = Math.floor(Math.random() * 256);
+		const green = Math.floor(Math.random() * 256);
+		const blue = Math.floor(Math.random() * 256);
+	  	document.body.style.background = "rgb(" + red + ", " + green + ", " + blue + ")";
+		}
+</script>
 
 </body>
 
